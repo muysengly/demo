@@ -46,9 +46,9 @@
 
 [[main]]
   name = "Get Started"
-  # identifier = "get-started"
-  url = "/docs/prologue/introduction/"
   weight = 30
+  identifier = "get-started"
+  url = "/docs/prologue/introduction/"
 
 [[main]]
   name = "Quick Start"
