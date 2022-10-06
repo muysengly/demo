@@ -1,14 +1,14 @@
-[[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+# [[docs]]
+#   name = "Prologue"
+#   weight = 10
+#   identifier = "prologue"
+#   url = "/docs/prologue/"
 
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+# [[docs]]
+#   name = "Help"
+#   weight = 60
+#   identifier = "help"
+#   url = "/docs/help/"
 
 # [[docs]]
 #   name = "Lorem"
@@ -16,23 +16,19 @@
 #   identifier = "lorem"
 #   url = "/docs/lorem/"
 
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
+# [[guide]]
+#   name = "Lorem"
+#   weight = 10
+#   identifier = "lorem"
+#   url = "/guide/lorem/"
 
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
+# [[tutorial]]
+#   name = "Lorem"
+#   weight = 10
+#   identifier = "lorem"
+#   url = "/tutorial/lorem/"
 
-[[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+
 
 # [[main]]
 #   name = "Tutorial"
@@ -40,29 +36,86 @@
 #   weight = 15
 
 [[main]]
-  name = "Blog"
+  name = "My Blog"
   url = "/blog/"
-  weight = 20
+  weight = 1
+
+
+
+# [[main]]
+#   name = "Documentations"
+#   identifier = "documentations"
+#   url = "/docs/help/faq/"
+#   # url = "/docs/1.0/prologue/introduction/"
+#   weight = 2
 
 [[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
+  name = "test"
+  identifier = "test"
+  weight = 2
 
 [[main]]
-  name = "Quick Start"
-  weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
+  name = "aaa"
+  identifier = "aaa"
+  url = "/aaa/lorem1/ipsum/01_test/"
+  weight = 3
+  parent = "test"
 
 [[main]]
-  name = "Tutorial"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
+  name = "bbb"
+  identifier = "bbb"
+  url = "/bbb/lorem/ipsum/"
+  weight = 4
+  parent = "test"
+
+
+
+# [[main]]
+#   name = "Docs"
+#   weight = 2.5
+#   identifier = "docs"
+#   url = "/docs/prologue/introduction/"
+#   parent = "documentations"
+
+
+
+# [[main]]
+#   name = "Python"
+#   weight = 3
+#   identifier = "python"
+#   url = "/docs/python3/introduction/"
+#   parent = "documentations"
+
+# [[main]]
+#   name = "Matlab"
+#   weight = 4
+#   identifier = "matlab"
+#   url = "/docs/prologue/introduction/"
+#   parent = "documentations"
+
+
+
+
+
+# [[main]]
+#   name = "Get Started"
+#   weight = 30
+#   identifier = "get-started"
+#   url = "/docs/prologue/introduction/"
+
+# [[main]]
+#   name = "Quick Start"
+#   weight = 40
+#   identifier = "quick-start"
+#   url = "/docs/prologue/quick-start/"
+#   parent = "get-started"
+
+# [[main]]
+#   name = "Tutorial"
+#   weight = 50
+#   identifier = "tutorial"
+#   url = "https://getdoks.org/tutorial/introduction/"
+#   parent = "get-started"
 
 [[social]]
   name = "GitHub"

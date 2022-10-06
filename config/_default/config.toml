@@ -1,4 +1,5 @@
 baseurl = "https://muysengly.github.io/demo/"
+# baseurl = "https://muysengly.github.io/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
