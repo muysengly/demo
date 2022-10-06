@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 baseurl = "https://muysengly.github.io/demo/"
 canonifyURLs = false
+=======
+baseurl = ""
+canonifyURLs = true
+>>>>>>> af4dfa162c34856021304a4aa1e82d4f6c5e8c4f
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
