@@ -5,6 +5,13 @@
 #   url = "/docs/prologue/"
 
 # [[docs]]
+#   name = "aa"
+#   weight = 20
+#   identifier = "aa"
+#   url = "/aa/lorem1/"
+
+
+# [[docs]]
 #   name = "Help"
 #   weight = 60
 #   identifier = "help"
@@ -22,32 +29,27 @@
 #   identifier = "lorem"
 #   url = "/guide/lorem/"
 
-# [[tutorial]]
-#   name = "Lorem"
-#   weight = 10
-#   identifier = "lorem"
-#   url = "/tutorial/lorem/"
 
-
-
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
 
 [[main]]
   name = "My Blog"
   url = "/blog/"
   weight = 1
 
+[[main]]
+  name = "Documentations"
+  identifier = "documentations"
+  url = "/docs/help/faq/"
+  # url = "/docs/1.0/prologue/introduction/"
+  weight = 2
 
+[[main]]
+  name = "Docs"
+  weight = 2.5
+  identifier = "docs"
+  url = "/docs/prologue/introduction/"
+  parent = "documentations"
 
-# [[main]]
-#   name = "Documentations"
-#   identifier = "documentations"
-#   url = "/docs/help/faq/"
-#   # url = "/docs/1.0/prologue/introduction/"
-#   weight = 2
 
 [[main]]
   name = "test"
@@ -70,52 +72,48 @@
 
 
 
-# [[main]]
-#   name = "Docs"
-#   weight = 2.5
-#   identifier = "docs"
-#   url = "/docs/prologue/introduction/"
-#   parent = "documentations"
-
-
-
-# [[main]]
-#   name = "Python"
-#   weight = 3
-#   identifier = "python"
-#   url = "/docs/python3/introduction/"
-#   parent = "documentations"
-
-# [[main]]
-#   name = "Matlab"
-#   weight = 4
-#   identifier = "matlab"
-#   url = "/docs/prologue/introduction/"
-#   parent = "documentations"
 
 
 
 
 
-# [[main]]
-#   name = "Get Started"
-#   weight = 30
-#   identifier = "get-started"
-#   url = "/docs/prologue/introduction/"
 
-# [[main]]
-#   name = "Quick Start"
-#   weight = 40
-#   identifier = "quick-start"
-#   url = "/docs/prologue/quick-start/"
-#   parent = "get-started"
 
-# [[main]]
-#   name = "Tutorial"
-#   weight = 50
-#   identifier = "tutorial"
-#   url = "https://getdoks.org/tutorial/introduction/"
-#   parent = "get-started"
+
+
+
+[[main]]
+  name = "Get Started"
+  weight = 30
+  identifier = "get-started"
+  url = "/docs/prologue/introduction/"
+
+[[main]]
+  name = "Quick Start"
+  weight = 40
+  identifier = "quick-start"
+  url = "/docs/prologue/quick-start/"
+  parent = "get-started"
+
+[[main]]
+  name = "Tutorial"
+  weight = 50
+  identifier = "tutorial"
+  url = "https://getdoks.org/tutorial/introduction/"
+  parent = "get-started"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [[social]]
   name = "GitHub"
@@ -130,7 +128,4 @@
   url = "https://twitter.com/getdoks"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+

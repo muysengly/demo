@@ -95,18 +95,25 @@ Source:
   // https://discourse.gohugo.io/t/range-length-or-last-element/3803/2
 
   {{ $list := slice }}
+  
   {{- if and (isset .Site.Params.options "searchsectionsindex") (not (eq (len .Site.Params.options.searchSectionsIndex) 0)) }}
-  {{- if eq .Site.Params.options.searchSectionsIndex "ALL" }}
-  {{- $list = .Site.Pages }}
+    {{- if eq .Site.Params.options.searchSectionsIndex "ALL" }}
+      {{- $list = .Site.Pages }}
+    {{- else }}
+      {{- $list = (where .Site.Pages "Type" "in" .Site.Params.options.searchSectionsIndex) }}
+      {{- if (in .Site.Params.options.searchSectionsIndex "HomePage") }}
+        {{ $list = $list | append .Site.Home }}
+      {{- end }}
+    {{- end }}
   {{- else }}
-  {{- $list = (where .Site.Pages "Type" "in" .Site.Params.options.searchSectionsIndex) }}
-  {{- if (in .Site.Params.options.searchSectionsIndex "HomePage") }}
-  {{ $list = $list | append .Site.Home }}
+    // search everywhere
+    {{- $list = .Site.Pages }}
+    // search specific location
+    // {{- $list = (where .Site.Pages "Section" "docs" ) }}
   {{- end }}
-  {{- end }}
-  {{- else }}
-  {{- $list = (where .Site.Pages "Section" "docs") }}
-  {{- end }}
+
+
+
 
   {{ $len := (len $list) -}}
 
