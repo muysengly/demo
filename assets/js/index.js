@@ -107,9 +107,9 @@ Source:
     {{- end }}
   {{- else }}
     // search everywhere
-    {{- $list = .Site.Pages }}
+    // {{- $list = .Site.Pages }}
     // search specific location
-    // {{- $list = (where .Site.Pages "Section" "docs" ) }}
+    {{- $list = (where .Site.Pages "Section" "aaa" ) }}
   {{- end }}
 
 

@@ -59,14 +59,14 @@
 [[main]]
   name = "aaa"
   identifier = "aaa"
-  url = "/aaa/lorem1/ipsum/01_test/"
+  url = "/aaa/lorem1/"
   weight = 3
   parent = "test"
 
 [[main]]
   name = "bbb"
   identifier = "bbb"
-  url = "/bbb/lorem/ipsum/"
+  url = "/bbb/lorem/"
   weight = 4
   parent = "test"
 
