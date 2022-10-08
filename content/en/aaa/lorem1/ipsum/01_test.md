@@ -27,7 +27,7 @@ Python programming language provides following types of loops to handle looping 
 | :----: | :----------------------------------------------------------- |
 |   1    | [while loop](https://www.tutorialspoint.com/python/python_while_loop.htm) Repeats a statement or group of statements while a given condition is TRUE. It tests the condition before executing the loop body. |
 |   2    | [for loop](https://www.tutorialspoint.com/python/python_for_loop.htm) Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable. |
-|   3    | [nested loops ](https://www.tutorialspoint.com/python/python_nested_loops.htm)You can use one or more loop inside any another while, for or do..while loop. |
+|   3    | [nested loops](https://www.tutorialspoint.com/python/python_nested_loops.htm)You can use one or more loop inside any another while, for or do..while loop. |
 
 ## Loop Control Statements
 
@@ -41,4 +41,4 @@ Let us go through the loop control statements briefly
 | :----: | :----------------------------------------------------------- |
 |   1    | [break statement](https://www.tutorialspoint.com/python/python_break_statement.htm) Terminates the loop statement and transfers execution to the statement immediately following the loop. |
 |   2    | [continue statement](https://www.tutorialspoint.com/python/python_continue_statement.htm) Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating. |
-|   3    | [pass statement ](https://www.tutorialspoint.com/python/python_pass_statement.htm)The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute. |
+|   3    | [pass statement](https://www.tutorialspoint.com/python/python_pass_statement.htm)The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute. |

@@ -1,13 +1,15 @@
 ---
 title: "03 test"
-description: " "
+description: ""
 lead: ""
-date: 2022-01-25T14:41:39+01:00
-lastmod: 2022-01-25T14:41:39+01:00
+date: 2022-01-18T20:17:32+01:00
+lastmod: 2022-01-18T20:17:32+01:00
 draft: false
 images: []
-type: docs
-weight: 1.3
+menu:
+  docs:
+    parent: "amet"
+weight: 730
 toc: true
 ---
 
